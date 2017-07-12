@@ -83,15 +83,15 @@ public class Question {
 		return median;
 	}
 	
-	public static void main(String[] args) {
-		
-		Question question = new Question();
-		int[] resource = {0,1,5,2,4,3,6};
-		
-		System.out.println(question.findMedian(resource));
-		
-		System.out.println(question.reverse("abcdefg"));
-		
-		System.out.println(question.reshuffle("bcdefag"));
-	}
+//	public static void main(String[] args) {
+//		
+//		Question question = new Question();
+//		int[] resource = {0,1,5,2,4,3,6};
+//		
+//		System.out.println(question.findMedian(resource));
+//		
+//		System.out.println(question.reverse("abcdefg"));
+//		
+//		System.out.println(question.reshuffle("bcdefag"));
+//	}
 }
